@@ -21,11 +21,12 @@ Veritabanı olarak MS-SQL kullanılarak, blog yazıları ve yorumlar güvenli ve
 - LINQ
 - JavaScript
 - Bootstrap
-
 ## Bilgisayarınızda çalıştırmak için appsetting.js dosyasına bu kodu eklemeniz gerekir.
+
+```javascript
 {
   "ConnectionStrings": {
-    "ConnStr": "Bu kısmı kendinize göre ayarlamanız gereklidir."
+    "ConnStr": "Bu kısmı kendinize göre ayarlamanız gereklidir"
   },
   "Logging": {
     "LogLevel": {
@@ -35,3 +36,6 @@ Veritabanı olarak MS-SQL kullanılarak, blog yazıları ve yorumlar güvenli ve
   },
   "AllowedHosts": "*"
 }
+```
+
+  
