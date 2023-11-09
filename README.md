@@ -6,6 +6,12 @@ Yöneticiler, admin panelinden mevcut blog girişlerini düzenleyebilir ve durum
 
 Veritabanı olarak MS-SQL kullanılarak, blog yazıları ve yorumlar güvenli ve düzenli bir şekilde depolanır. Bu, veri yönetimi açısından güçlü bir temel sağlar.
 
+My personal blog site, based on ASP.NET, was built on a solid layered structure and focused on minimizing dependencies as much as possible. Visitors can comment on blog posts and interact with the responses they receive. However, all comments go through the admin panel first and are only published after their content is checked and approved. Approved comments can be seen below the relevant blog posts.
+
+Administrators can edit existing blog entries and change their status from the admin panel. This is an important feature to ensure that the content remains current and manageable. Adding new blog entries and updating existing ones is quite easy.
+
+By using MS-SQL as the database, blog posts and comments are stored securely and in an organized manner. This provides a strong foundation for data management.
+
 ## Kullanılan Teknolojiler
 
 - Katmanlı Mimari / Onion Pattern
